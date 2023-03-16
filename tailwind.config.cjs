@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        tomato: "#ff6347",
+        teal: "#008080",
+        gold: "#ffd700",
+      },
+    },
     screens: {
       xs: "480px",
       sm: "768px",
